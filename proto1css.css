@@ -232,11 +232,12 @@ box-shadow: 3px 5px 10px black;
     backdrop-filter: blur(20px);
     text-shadow: 1px 1px 1px black;
 }
-.youtubeLink {
+.twitchLink {
     color: rgb(255, 155, 155);
     cursor: pointer;
     transition: 250ms;
 }
-.youtubeLink:hover {
+.twitchLink:hover {
     color: rgb(255, 95, 95);
+
 }
