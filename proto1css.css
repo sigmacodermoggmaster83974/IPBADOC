@@ -10,13 +10,14 @@
     --float-bg: #970000;
     --default-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     --default-transition: 250ms;
+    --background-alt: #E5694C;
 }
 html {
     scroll-behavior: smooth;
 }
 body {
     height: 214vh;
-    background: linear-gradient(var(--background), var(--nav-bg), var(--float-bg));
+    background: linear-gradient(var(--background-alt), var(--background), var(--nav-bg), var(--float-bg), var(--background-alt));
     overflow-x: hidden;
 }
 footer {
@@ -240,4 +241,5 @@ box-shadow: 3px 5px 10px black;
 .linkToTwitch:hover {
     color: rgb(255, 95, 95);
 }
+
 
