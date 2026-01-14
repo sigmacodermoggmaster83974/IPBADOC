@@ -6,7 +6,7 @@ body {
     height: 250vh;
     scrollbar-width: none;
     padding: 0.5vw;
-    background: url(bg4.webp);
+    background: whitesmoke;
     background-repeat: no-repeat;
     background-size: 250% 250%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -137,4 +137,5 @@ height: 50vw;
 #credTitle {
     font-family: Barrio;
     font-size: 3vw;
+
 }
