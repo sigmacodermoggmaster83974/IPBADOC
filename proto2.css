@@ -6,7 +6,7 @@ body {
     height: 250vh;
     scrollbar-width: none;
     padding: 0.5vw;
-    background: whitesmoke;
+    background: wheat;
     background-repeat: no-repeat;
     background-size: 250% 250%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -15,18 +15,8 @@ body {
     display: none;
 }
 @font-face {
-    font-family: Barrio;
-    src: url(barrio-v20-latin-regular.woff2);
-}
-@font-face {
-    font-family: Shizuru;
-    src: url(shizuru-v13-latin-regular.woff2);
-    font-weight: 400;
-}
-@font-face {
-    font-family: knewave;
-    src: url(knewave-v15-latin-regular.woff2);
-    font-weight: 400;
+    font-family: bagel;
+    src: url(bagel-fat-one-v2-latin-regular.woff2);
 }
 #banner{
 align-self: center;
@@ -35,7 +25,7 @@ width: 95vw;
 h1 {
     font-size: 4vw;
     text-align: center;
-    font-family: Barrio;
+    font-family: bagel;
 }
 hr {
     height: 0.6vw;
@@ -53,14 +43,14 @@ hr {
 #explanation {
     font-size: 2.5vw;
     display: inline-block;
-    font-family: Barrio;
+    font-family: bagel;
 }
 #game {
     font-size: 3vw;
     position: absolute;
     right: 0.5vw;
     display: inline-block;
-    font-family: Shizuru;
+    font-family: bagel;
 }
 .games {
     width: 30vw;
@@ -71,7 +61,7 @@ hr {
 }
 #dateAndLinks {
     font-size: 3vw;
-    font-family: knewave;
+    font-family: bagel;
     text-decoration: none;
     color: black;
 }
@@ -94,21 +84,26 @@ height: 50vw;
     transition: 400ms;
     transform: scale(0.6);
     opacity: 0;
-    font-family: Shizuru;
+    font-family: bagel;
 }
+.credCard:nth-of-type(2) {
+    background: url(enya.jpg);
+    background-size: 100% 100%;
+    color: #E6684C;
+} 
 .show {
     position: absolute;
     left: 34vw;
     transform: scale(1);
     opacity: 1;
-    font-family: Shizuru;
+    font-family: bagel;
 }
 #next {
     background-color: indianred;
     font-size: 3vw;
     position: absolute;
  left: 15vw;
- font-family: Shizuru;
+ font-family: bagel;
 }
 #game {
     background-repeat: no-repeat;
@@ -135,7 +130,6 @@ height: 50vw;
     background-size: 100% 100%;
 }
 #credTitle {
-    font-family: Barrio;
+    font-family: bagel;
     font-size: 3vw;
-
 }
