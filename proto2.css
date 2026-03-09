@@ -110,12 +110,12 @@ height: 50vw;
     object-fit: cover;
 }
 #game1 {
-    background: url(Screenshot\ 2026-01-14\ 171456.png);
+    background: url(interliminality.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 #game2 {
-    background: url(thumbnail.png);
+    background: url(together.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
